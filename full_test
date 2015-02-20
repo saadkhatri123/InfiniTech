@@ -1,0 +1,22 @@
+//cpta test
+start1	cpta	0	x	y
+
+//cpfa test
+start2	cpfa	71	x	y
+
+//call test
+start3	call	start4	finish
+end	halt
+
+//ret test
+start4	ret	finish
+
+x	.data 40
+y	.data 50
+finish  .data 0
+
+
+//mem[70] = 12   	(cpta)
+//mem[71] = 12	 	(cpfa)
+//mem[finish] = 16 	(call)
+//ends the program	(ret)
