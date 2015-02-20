@@ -1,0 +1,7 @@
+    ret	return
+    add	sum	y	z
+	  halt
+y	  .data 10
+z	  .data 12
+sum .data 0		//mem[14] = 22
+return  .data 4
