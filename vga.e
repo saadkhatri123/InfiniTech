@@ -159,7 +159,6 @@ vgadraw_height	.data	0
 vgadraw_char	.data	0
 
 //other vars
-vgadraw_okdraw	.data	0
 vgadraw_x2	.data	0
 vgadraw_y2	.data	0
 vgadraw_xi	.data	0
